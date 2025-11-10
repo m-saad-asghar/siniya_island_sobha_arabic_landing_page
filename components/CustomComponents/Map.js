@@ -31,12 +31,12 @@ export default function Map() {
   return (
     <>
     
-    <section className="main-slider main-slider-one" id="map">
+    <section className="main-slider main-slider-one" id="map" dir='rtl'>
         <div className='custom_container'>
             <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content_why_invest'>Community Map</h1>
+        <h1 className='heading_middle content_why_invest'>خريطة المشروع</h1>
         </div>
       </div>
       {/* <div className='resp_usd'>
@@ -71,10 +71,10 @@ export default function Map() {
     </div>
     <div style={{marginLeft: 10}}>
                 <p className='community_styling'>
-                Dreamland Aqua Park
+                حديقة الأحلام المائية
             </p>
             <p className='distance'>
-                07 MINUTES AWAY
+                يبعد 7 دقائق
             </p>
             </div>
  </div>
@@ -90,10 +90,10 @@ export default function Map() {
     </div>
     <div style={{marginLeft: 10}}>
                 <p className='community_styling'>
-                Al Marjan Island
+                جزيرة المرجان
             </p>
             <p className='distance'>
-                15 MINUTES AWAY
+                تبعد 15 دقيقة
             </p>
             </div>
  </div>
@@ -109,10 +109,10 @@ export default function Map() {
     </div>
     <div style={{marginLeft: 10}}>
                 <p className='community_styling'>
-                RAK Beach
+                شاطئ رأس الخيمة
             </p>
             <p className='distance'>
-                17 MINUTES AWAY
+                تبعد 17 دقيقة
             </p>
             </div>
  </div>
@@ -128,10 +128,10 @@ export default function Map() {
     </div>
     <div style={{marginLeft: 10}}>
                 <p className='community_styling'>
-                Mall of Umm Al Quwain
+                مول أم القيوين
             </p>
             <p className='distance'>
-                23 MINUTES AWAY
+                تبعد 23 دقيقة
             </p>
             </div>
  </div>
@@ -147,10 +147,10 @@ export default function Map() {
     </div>
     <div style={{marginLeft: 10}}>
                 <p className='community_styling'>
-              Umm Al Quwain Beach
+              شاطئ أم القيوين
             </p>
             <p className='distance'>
-                24 MINUTES AWAY
+                تبعد 24 دقيقة
             </p>
             </div>
  </div>
@@ -166,10 +166,10 @@ export default function Map() {
     </div>
     <div style={{marginLeft: 10}}>
                 <p className='community_styling'>
-                Sharjah
+                الشارقة
             </p>
             <p className='distance'>
-                30 MINUTES AWAY
+               تبعد 30 دقيقة
             </p>
             </div>
  </div>
@@ -185,10 +185,10 @@ export default function Map() {
     </div>
     <div style={{marginLeft: 10}}>
                 <p className='community_styling'>
-                Dubai
+                دبي
             </p>
             <p className='distance'>
-                50 MINUTES AWAY
+                تبعد 50 دقيقة
             </p>
             </div>
  </div>

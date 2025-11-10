@@ -7,16 +7,17 @@ import ContactForm from "../ContactForm";
 export default function Form() {
     return (
         <>
-            <section className="custom_container properties_section" id="contact-form">
+            <section className="custom_container properties_section" id="contact-form" dir="rtl">
               <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content_why_invest'>Find Your Dream Home Today</h1>
+        <h1 className='heading_middle content_why_invest'>اكتشف منزل أحلامك اليوم</h1>
         </div>
       </div>
       <div className='resp_usd'>
         <p className="down_styling para_styling">
- Invest in Sobha Siniya Island with Shiro Estate and unlock exclusive projects, prime waterfront living, and exceptional investment opportunities. Secure your preferred residence now.
+ استثمر في Sobha Siniya Island مع Shiro Estate 
+واستفد من المشاريع الحصرية، والعيش المميز على الواجهة المائية، وفرص الاستثمار الاستثنائية.
 </p>
 
       </div>

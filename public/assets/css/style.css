@@ -216,6 +216,10 @@ display: flex;
     color: #ffffff;
 }
 
+.selected-flag {
+    margin-right: 30px;
+}
+
 .map_container {
     margin-top: 65px;
     margin-bottom: 50px;
@@ -355,7 +359,7 @@ h6 {
 }
 
 .form_container {
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .form_label {

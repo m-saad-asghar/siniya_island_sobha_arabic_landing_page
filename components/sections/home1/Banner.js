@@ -65,12 +65,13 @@ export default function Banner() {
       <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content'>LUXURY WATERFRONT LIVING IN VIBRANT ISLAND RESIDENCES BY SOBHA REALTY</h1>
+        <h1 className='heading_middle content'>العيش الفاخر على الواجهة المائية في Vibrant Island Residences من Sobha Realty</h1>
         </div>
       </div>
       <div className='resp_usd'>
         <p className="down_styling">
-  Own a luxurious waterfront home with open green spaces, unmatched views, and world-class amenities — crafted for modern elegance.
+  امتلك منزلاً فاخراً على الواجهة المائية مع مساحات خضراء مفتوحة، وإطلالات لا مثيل لها، ومرافق عالمية المستوى –
+ مصممة لأناقة عصرية.
 </p>
 
       </div>
@@ -85,7 +86,7 @@ export default function Banner() {
               if (element) element.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            SCHEDULE YOUR FREE CONSULTATION
+            احجز استشارتك المجانية الآن
           </button>
 </div>
                 </div>

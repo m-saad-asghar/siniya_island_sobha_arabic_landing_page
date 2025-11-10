@@ -6,7 +6,7 @@ export default function Footer1() {
     const currentYear = new Date().getFullYear();
     return (
         <>
-            <footer className="footer-one custom_container" id="footer">
+            <footer className="footer-one custom_container" id="footer" dir="rtl">
 
                  <div className="logo-box centerize shiro_logo_container">
   <Image
@@ -20,18 +20,21 @@ export default function Footer1() {
                 <div className="footer-main">
                     <div>
                             <div className="number-box centerize footer_content">
-                                            <span style={{color: "#ffffff"}}>TL: 1447657</span>
+                                            <span style={{color: "#ffffff"}}>رقم الترخيص العقاري: 1447657</span>
                                             <span style={{color: "#ffffff", marginLeft: 30, marginRight: 30}}>|</span>
-                                            <span style={{color: "#ffffff"}}>RERA: 47486</span>
+                                            <span style={{color: "#ffffff"}}>رقم تسجيل هيئة التنظيم العقاري: 47486</span>
                                         </div>
                         <p className="footer_content_middle">
-                            &copy; {currentYear} Shiro Estate. All Rights reserved.
+                           جميع الحقوق محفوظة. &copy; {currentYear} Shiro Estate
                         </p>
                         <p className="footer_content_middle">
-                           Disclaimer: We are an officially authorized channel partner for the Dubai property developers featured on this website. The information provided — including project details, pricing, and availability — is for general reference only and may change without prior notice. Images and visual materials shown on this page are for illustrative purposes and may not represent the actual properties. For the most accurate and up-to-date project information, please contact us directly or refer to the developers’ official sources.
+                           تنويه: نحن شريك قناة معتمد رسميًا لمطوري العقارات في دبي المعروضين على هذا الموقع. المعلومات المقدمة —
+ بما في ذلك تفاصيل المشاريع، والأسعار، وتوافر الوحدات — هي لأغراض مرجعية عامة فقط وقد تتغير دون إشعار مسبق.
+ الصور والمواد البصرية المعروضة في هذه الصفحة لأغراض توضيحية فقط وقد لا تمثل العقارات الفعلية.
+ للحصول على أدق المعلومات المحدثة عن المشاريع، يرجى التواصل معنا مباشرة أو الرجوع إلى المصادر الرسمية للمطورين.
                         </p>
                         <div className="footer_link_container">
-                            <a className="footer_link" href="https://www.shiroestate.ae/privacy-policy" target="_blank">Privacy Policy</a>
+                            <a className="footer_link" href="https://www.shiroestate.ae/privacy-policy" target="_blank">سياسة الخصوصية</a>
                         </div>
                     </div>
                 </div>

@@ -6,16 +6,17 @@ import { Home, Building, Trees, Umbrella, UmbrellaIcon, TreePine, Activity, Dumb
 export default function Properties() {
     return (
         <>
-            <section className="custom_container properties_section" id="siniya-projects">
+            <section className="custom_container properties_section" id="siniya-projects" dir="rtl">
               <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content_why_invest'>Featured Sobha Siniya Island Projects</h1>
+        <h1 className='heading_middle content_why_invest'>المشاريع المميزة في Sobha Siniya Island</h1>
         </div>
       </div>
       <div className='resp_usd'>
         <p className="down_styling para_styling">
- Explore exclusive residences designed with world-class amenities, unmatched views, and resort-style living at Sobha Siniya Island.
+ استكشف المساكن الحصرية المصممة بمرافق عالمية المستوى، وإطلالات لا مثيل لها،
+ وأسلوب حياة مستوحى من المنتجعات في Sobha Siniya Island.
 </p>
 
       </div>
@@ -34,9 +35,9 @@ export default function Properties() {
             </div>
              <div className="why_invest_wrapper col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <div className="badge">
-                Apartments
+                الشقق
                 </div>
-                <h3 className="project_title">Waterfront Apartments starting from AED 1.33M*</h3>
+                <h3 className="project_title">شقق على الواجهة المائية تبدأ من 1.33 مليون درهم إماراتي*</h3>
                 <div className="currency_container">
                     <div className="property_price icon_price_styling">
                          <span className="property_price_span">
@@ -46,7 +47,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 22, marginRight: 5 }}
-                                                  /> GBP 275K*
+                                                  /> 275 ألف جنيه إسترليني*
                         </span>
                     </div>
                     <div className="property_price icon_price_styling">
@@ -57,7 +58,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 30 }}
-                                                  /> USD 362K*
+                                                  /> 362 ألف دولار أمريكي*
                         </span>
                     </div>
                     <div className="property_price icon_price_styling">
@@ -68,7 +69,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 22, marginRight: 5 }}
-                                                  /> EUR 313K*
+                                                  /> 313 ألف يورو*
                         </span>
                     </div>
                    <div className="property_price">
@@ -79,7 +80,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 22, marginRight: 5 }}
-                                                  /> INR 3.21Cr*
+                                                  /> 3.21 كرور روبية هندية*
                         </span>
                     </div>
                 </div>
@@ -92,13 +93,13 @@ export default function Properties() {
               if (element) element.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            I AM INTERESTED
+            أنا مهتم
           </button>
 </div>
 
 <div className='resp_usd'>
         <p className="down_styling_note" style={{color: "#9f8151 "}}>
-  *The Global Prices may vary as per the Exchange Rate.
+  قد تختلف الأسعار العالمية حسب سعر الصرف.
 </p>
 
       </div>
@@ -121,9 +122,9 @@ export default function Properties() {
       <div className="row apartment_row_styling margin_left_null">
              <div className="why_invest_wrapper_villa col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <div className="badge">
-                Villas
+                الفيلات
                 </div>
-                <h3 className="project_title">Waterfront Villas starting from AED 10.75M*</h3>
+                <h3 className="project_title">فيلات على الواجهة المائية تبدأ من 10.75 مليون درهم إماراتي*</h3>
                 <div className="currency_container_villa">
                      <div className="property_price">
                          <span className="property_price_span">
@@ -133,7 +134,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 22, marginRight: 5 }}
-                                                  /> GBP 2.22M*
+                                                  /> 2.22 مليون جنيه إسترليني*
                         </span>
                     </div>
                     <div className="property_price">
@@ -144,7 +145,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 30 }}
-                                                  /> USD 2.93M*
+                                                  /> 2.93 مليون دولار أمريكي*
                         </span>
                     </div>
                     <div className="property_price">
@@ -155,7 +156,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 22, marginRight: 5 }}
-                                                  /> EUR 2.53M*
+                                                  /> 2.53 مليون يورو*
                         </span>
                     </div>
                     <div className="property_price">
@@ -166,7 +167,7 @@ export default function Properties() {
                                                     height={50}
                                                     width={300} // adjust based on your logo’s aspect ratio
                                                     style={{ height: "auto", width: "100%", maxWidth: 22, marginRight: 5 }}
-                                                  /> INR 25.97Cr*
+                                                  /> 25.97 كرور روبية هندية*
                         </span>
                     </div>
                 </div>
@@ -179,13 +180,13 @@ export default function Properties() {
               if (element) element.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            I AM INTERESTED
+            أنا مهتم
           </button>
 </div>
 
 <div className='resp_usd'>
         <p className="down_styling_note" style={{color: "#9f8151 "}}>
-  *The Global Prices may vary as per the Exchange Rate.
+  قد تختلف الأسعار العالمية حسب سعر الصرف.
 </p>
 
       </div>

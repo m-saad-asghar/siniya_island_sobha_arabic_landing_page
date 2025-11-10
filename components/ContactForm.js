@@ -61,10 +61,10 @@ export default function ContactForm() {
   e.preventDefault();
 
    if (!formData.phone) {
-    setPhoneError("Phone number is required");
+    setPhoneError("رقم الهاتف مطلوب");
     return;
 } else if (formData.phone.length < 9 || formData.phone.length > 15) {
-  setPhoneError("Phone number must be between 9 and 15 characters");
+  setPhoneError("يجب أن يكون رقم الهاتف بين 9 و15 رقمًا");
   return;
 }else{
   setPhoneError("");
@@ -171,12 +171,12 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit}>
       <div className="mb-3">
          <label className="form_label">
-          Full Name*
+          الاسم الكامل*
           </label>
         <input
           type="text"
           name="name"
-          placeholder="Enter Your Name"
+          placeholder="أدخل اسمك"
           className="form-control"
           value={formData.name}
           onChange={handleChange}
@@ -190,12 +190,12 @@ export default function ContactForm() {
 
       <div className="mb-3">
         <label className="form_label">
-          Email*
+          البريد الإلكتروني*
           </label>
         <input
           type="email"
           name="email"
-          placeholder="Enter Your Email Address"
+          placeholder="أدخل بريدك الإلكتروني"
           className="form-control"
           value={formData.email}
           onChange={handleChange}
@@ -209,11 +209,11 @@ export default function ContactForm() {
 
       <div className="mb-3">
         <label className="form_label">
-        Phone Number* (With Country Code)
+        رقم الهاتف* (مع رمز الدولة)  +971
         </label>
          <PhoneInput
          name="phone"
-         country={"ae"}
+         country={"sa"}
          value={formData.phone}
         onChange={(value) =>
         setFormData({
@@ -235,12 +235,12 @@ export default function ContactForm() {
 
       <div className="mb-3">
         <label className="form_label">
-          Message
+          الرسالة
           </label>
         <textarea
           name="message"
           rows="3"
-          placeholder="Your Message"
+          placeholder="رسالتك"
           className="form-control"
           value={formData.message}
           onChange={handleChange}
@@ -269,7 +269,7 @@ export default function ContactForm() {
           fontWeight: "600",
         }}
       >
-        Submit
+        إرسال
       </button>
     </form>
     </div>
