@@ -300,7 +300,7 @@ export default function WhyInvest() {
                                 </div>
                                 <div className="content-box">
                                     <h2 className="amenities_styling">إمكانات استثمارية عالية</h2>
-                                    <p>Sobha Siniya Island offers strong long-term value, promising robust ROI for discerning investors.</p>
+                                    <p>توفر Sobha Siniya Island قيمة قوية طويلة الأمد، مع عائد استثماري قوي للمستثمرين المميزين.</p>
                                 </div>
                             </div>
                         </div>
