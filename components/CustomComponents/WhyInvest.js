@@ -176,6 +176,9 @@ export default function WhyInvest() {
                                 </div>
                             </div>
                         </div>
+                         <div className="shadow_line">
+                        <hr className="line_styling" />
+                    </div>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animated fadeInUp" data-wow-delay="0.1s">
                         <div className="service-one__single">
@@ -200,6 +203,9 @@ export default function WhyInvest() {
                                 </div>
                             </div>
                         </div>
+                         <div className="shadow_line">
+                        <hr className="line_styling" />
+                    </div>
                     </div>
 
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animated fadeInUp" data-wow-delay="0.1s">
@@ -225,9 +231,12 @@ export default function WhyInvest() {
                                 </div>
                             </div>
                         </div>
+                         <div className="shadow_line">
+                        <hr className="line_styling" />
+                    </div>
                     </div>
 
-                    <div className="">
+                    <div className="light_line">
                         <hr className="line_styling" />
                     </div>
 
@@ -254,6 +263,9 @@ export default function WhyInvest() {
                                 </div>
                             </div>
                         </div>
+                         <div className="shadow_line">
+                        <hr className="line_styling" />
+                    </div>
                     </div>
 
                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animated fadeInUp" data-wow-delay="0.1s">
@@ -279,6 +291,9 @@ export default function WhyInvest() {
                                 </div>
                             </div>
                         </div>
+                         <div className="shadow_line">
+                        <hr className="line_styling" />
+                    </div>
                     </div>
 
                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animated fadeInUp" data-wow-delay="0.1s">
@@ -304,6 +319,9 @@ export default function WhyInvest() {
                                 </div>
                             </div>
                         </div>
+                         <div className="shadow_line">
+                        <hr className="line_styling" />
+                    </div>
                     </div>
 
                 </div>
