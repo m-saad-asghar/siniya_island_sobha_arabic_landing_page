@@ -64,7 +64,7 @@ export default function ContactForm() {
     setPhoneError("رقم الهاتف مطلوب");
     return;
 } else if (formData.phone.length < 9 || formData.phone.length > 15) {
-  setPhoneError("يجب أن يكون رقم الهاتف بين 9 و15 رقمًا");
+  setPhoneError("يجب أن يكون رقم الهاتف بين 9 و15 رقماً");
   return;
 }else{
   setPhoneError("");
@@ -209,7 +209,7 @@ export default function ContactForm() {
 
       <div className="mb-3">
         <label className="form_label">
-        رقم الهاتف* (مع رمز الدولة)  +971
+        رقم الهاتف* (مع رمز الدولة)
         </label>
          <PhoneInput
          name="phone"
@@ -252,7 +252,6 @@ export default function ContactForm() {
             border: "1px solid #ccc",
             resize: "none",
           }}
-          required
         ></textarea>
       </div>
 
