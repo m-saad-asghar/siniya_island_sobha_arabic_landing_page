@@ -69,9 +69,9 @@ export default function Map() {
                                 className='map_icon_styling'
                               />
     </div>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                 <p className='community_styling'>
-                حديقة الأحلام المائية
+                دريم لاند أكوا بارك المائية
             </p>
             <p className='distance'>
                 يبعد 7 دقائق
@@ -88,7 +88,7 @@ export default function Map() {
                                 className='map_icon_styling'
                               />
     </div>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                 <p className='community_styling'>
                 جزيرة المرجان
             </p>
@@ -107,7 +107,7 @@ export default function Map() {
                                 className='map_icon_styling'
                               />
     </div>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                 <p className='community_styling'>
                 شاطئ رأس الخيمة
             </p>
@@ -126,7 +126,7 @@ export default function Map() {
                                 className='map_icon_styling'
                               />
     </div>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                 <p className='community_styling'>
                 مول أم القيوين
             </p>
@@ -145,7 +145,7 @@ export default function Map() {
                                 className='map_icon_styling'
                               />
     </div>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                 <p className='community_styling'>
               شاطئ أم القيوين
             </p>
@@ -164,7 +164,7 @@ export default function Map() {
                                 className='map_icon_styling'
                               />
     </div>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                 <p className='community_styling'>
                 الشارقة
             </p>
@@ -183,7 +183,7 @@ export default function Map() {
                                 className='map_icon_styling'
                               />
     </div>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                 <p className='community_styling'>
                 دبي
             </p>
@@ -193,7 +193,7 @@ export default function Map() {
             </div>
  </div>
  <div className='address_container'>
-    <div style={{marginLeft: 10}}>
+    <div style={{marginRight: 10}}>
                <div className="map_btn_style btn_cen">
   <button
             className="hover_external_btn"

@@ -12,15 +12,15 @@ export default function WhyInvest() {
 <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content_why_invest'>لماذا تختار Sobha Siniya Island؟</h1>
+        <h1 className='heading_middle content_why_invest'>لماذا تختار شوبا جزيرة السنية؟</h1>
         </div>
       </div>
       <div className='resp_usd'>
         <p className="down_styling para_styling">
- تقدم Sobha Siniya Island مزيجاً فريداً من العيش الفاخر على الواجهة المائية، 
+            تقدم شوبا جزيرة السنية مزيجاً فريداً من العيش الفاخر على الواجهة المائية، 
 والمساحات الخضراء الواسعة، والمساكن الفاخرة.
  مثالية للمستثمرين وأصحاب المنازل على حد سواء، وتوفر أسلوب حياة عالمي المستوى في موقع مزدهر ومرغوب فيه.
-</p>
+        </p>
 
       </div>
        <div className="row feature_row">
@@ -199,7 +199,7 @@ export default function WhyInvest() {
                                 </div>
                                 <div className="content-box">
                                     <h2 className="amenities_styling">المساحات الخضراء الواسعة</h2>
-                                    <p>تخصص Sobha Siniya Island نحو 46٪ من مساحتها للحدائق المورقة والمساحات الطبيعية الهادئة، لتوفير بيئة تجمع بين الهدوء والحيوية لسكانها.</p>
+                                    <p>تخصص جزيرة شوبا سينيا نحو 46٪ من مساحتها للحدائق المورقة والمساحات الطبيعية الهادئة، لتوفير بيئة تجمع بين الهدوء والحيوية لسكانها.</p>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@ export default function WhyInvest() {
                                 </div>
                                 <div className="content-box">
                                     <h2 className="amenities_styling">إمكانات استثمارية عالية</h2>
-                                    <p>توفر Sobha Siniya Island قيمة قوية طويلة الأمد، مع عائد استثماري قوي للمستثمرين المميزين.</p>
+                                    <p>توفر جزيرة شوبا سينيا قيمة قوية طويلة الأمد، مع عائد استثماري قوي للمستثمرين المميزين.</p>
                                 </div>
                             </div>
                         </div>

@@ -74,12 +74,12 @@ export default function Banner() {
       <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content'>العيش الفاخر على الواجهة المائية في Vibrant Island Residences من Sobha Realty</h1>
+        <h1 className='heading_middle content'>العيش الفاخر على الواجهة المائية في مساكن الجزيرة النابضة بالحياة من شوبا العقارية</h1>
         </div>
       </div>
       <div className='resp_usd'>
         <p className="down_styling">
-  امتلك منزلاً فاخراً على الواجهة المائية مع مساحات خضراء مفتوحة، وإطلالات لا مثيل لها، ومرافق عالمية المستوى –
+ امتلك منزلاً فاخراً على الواجهة المائية مع مساحات خضراء مفتوحة، وإطلالات لا مثيل لها، ومرافق عالمية المستوى –
  مصممة لأناقة عصرية.
 </p>
 

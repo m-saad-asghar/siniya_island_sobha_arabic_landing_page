@@ -16,7 +16,7 @@ export default function Form() {
       </div>
       <div className='resp_usd'>
         <p className="down_styling para_styling">
- استثمر في Sobha Siniya Island مع Shiro Estate 
+ استثمر في جزيرة شوبا سينيا مع شيرو استيت 
 واستفد من المشاريع الحصرية، والعيش المميز على الواجهة المائية، وفرص الاستثمار الاستثنائية.
 </p>
 

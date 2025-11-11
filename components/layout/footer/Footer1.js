@@ -25,7 +25,7 @@ export default function Footer1() {
                                             <span style={{color: "#ffffff"}}>رقم تسجيل هيئة التنظيم العقاري: 47486</span>
                                         </div>
                         <p className="footer_content_middle">
-                           جميع الحقوق محفوظة. &copy; {currentYear} Shiro Estate
+                           جميع الحقوق محفوظة. &copy; شيرو استيت {currentYear}
                         </p>
                         <p className="footer_content_middle">
                            تنويه: نحن شريك قناة معتمد رسميًا لمطوري العقارات في دبي المعروضين على هذا الموقع. المعلومات المقدمة —

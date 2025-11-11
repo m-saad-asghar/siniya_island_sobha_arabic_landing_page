@@ -10,13 +10,13 @@ export default function Properties() {
               <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content_why_invest'>المشاريع المميزة في Sobha Siniya Island</h1>
+        <h1 className='heading_middle content_why_invest'>المشاريع المميزة في جزيرة شوبا سينيا</h1>
         </div>
       </div>
       <div className='resp_usd'>
         <p className="down_styling para_styling">
  استكشف المساكن الحصرية المصممة بمرافق عالمية المستوى، وإطلالات لا مثيل لها،
- وأسلوب حياة مستوحى من المنتجعات في Sobha Siniya Island.
+ وأسلوب حياة مستوحى من المنتجعات في جزيرة شوبا سينيا.
 </p>
 
       </div>
