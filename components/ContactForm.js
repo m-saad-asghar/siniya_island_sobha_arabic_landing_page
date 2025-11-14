@@ -1,10 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import PhoneInput, { isPossiblePhoneNumber } from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css';
 import { useRouter } from 'next/navigation';
 import { useSearchParams } from 'next/navigation';
+import ReCAPTCHA from "react-google-recaptcha";
+
 
 export default function ContactForm() {
    const router = useRouter();
@@ -22,6 +24,11 @@ export default function ContactForm() {
      const searchParams = useSearchParams();
      const [countryValue, setCountryValue] = useState('');
   const [originValue, setOriginValue] = useState('');
+
+  // 🔐 reCAPTCHA for THIS component only
+    const recaptchaRef = useRef(null);
+    const [captchaToken, setCaptchaToken] = useState(null);
+    const [captchaError, setCaptchaError] = useState('');
 
    useEffect(() => {
     const origin = searchParams.get('origin');
@@ -57,8 +64,22 @@ export default function ContactForm() {
         });
     };
 
+    // ✅ reCAPTCHA handler for THIS form
+    const handleCaptchaChange = (token) => {
+        setCaptchaToken(token);
+        if (token) {
+            setCaptchaError('');
+        }
+    };
+
   const handleSubmit = async (e) => {
   e.preventDefault();
+
+   // ✅ Check captcha FIRST
+        if (!captchaToken) {
+            setCaptchaError("يرجى التحقق من أنك لست روبوتاً.");
+            return;
+        }
 
    if (!formData.phone) {
     setPhoneError("رقم الهاتف مطلوب");
@@ -145,6 +166,13 @@ export default function ContactForm() {
 
     if (result.result) {
       router.push('/thank-you');
+       // Reset form
+                // Reset this form's captcha only
+                setCaptchaToken(null);
+                if (recaptchaRef.current) {
+                    recaptchaRef.current.reset();
+                }
+                 await sendLeadEmail();
       setFormData({
           name: '',
         phone: '',
@@ -154,7 +182,7 @@ export default function ContactForm() {
         duration: '',
         purpose: '',
       });
-      await sendLeadEmail();
+     
     } else {
       setDisableBtn(false);
       console.log("Something Went Wrong. Please Try Again.")
@@ -253,6 +281,19 @@ export default function ContactForm() {
             resize: "none",
           }}
         ></textarea>
+      </div>
+
+      <div className="mb-3">
+<ReCAPTCHA
+                                                            ref={recaptchaRef}
+                                                            sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                                                            onChange={handleCaptchaChange}
+                                                        />
+                                                        {captchaError && (
+                                                            <p style={{ color: 'red', fontSize: '14px', marginTop: '5px' }}>
+                                                                {captchaError}
+                                                            </p>
+                                                        )}
       </div>
 
       <button

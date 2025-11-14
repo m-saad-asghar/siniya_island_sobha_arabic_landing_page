@@ -376,6 +376,10 @@ h6 {
      margin-bottom: 0 !important;
 }
 
+.captcha_container {
+    margin-top: 30px;
+}
+
 .main_logo_styling {
     height: 100%;
     width: 100%;
@@ -7620,6 +7624,10 @@ Project Four Css
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+
+      /* .captcha_container {
+    margin-top: 30px;
+} */
 
     .reverse_section {
         display: flex;
