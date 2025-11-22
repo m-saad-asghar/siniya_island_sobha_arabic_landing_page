@@ -66,3 +66,16 @@
       transform: translateY(0);
     }
   }
+
+  @media (max-width: 767px) {
+
+  .whatsapp_icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .whatsapp_message {
+    display: none;
+  }
+
+}

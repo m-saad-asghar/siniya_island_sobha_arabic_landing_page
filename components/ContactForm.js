@@ -95,7 +95,7 @@ export default function ContactForm() {
  formData.phone = phone
 
   const payload_email = {
-    LANDING_PAGE: "Sobha Siniya Island AR",
+    LANDING_PAGE: "Sobha Siniya Island AR Landing Page",
     ORIGIN: originValue,
     COUNTRY: countryValue,
     NAME: formData.name,
@@ -106,7 +106,7 @@ export default function ContactForm() {
 
   const payload = {
     fields: {
-      TITLE: `Sobha Siniya Island AR`,
+      TITLE: `Sobha Siniya Island AR Landing Page`,
       UF_CRM_1760777561731: originValue,
       NAME: formData.name,
       PHONE_TEXT: formData.phone,
@@ -125,7 +125,7 @@ export default function ContactForm() {
       SOURCE_DESCRIPTION: formData.message,
       SOURCE_ID: "WEB",
       ASSIGNED_BY_ID: 25,
-      UF_CRM_1754652292782: "Sobha Siniya Island AR",
+      UF_CRM_1754652292782: "Sobha Siniya Island AR Landing Page",
       UF_CRM_1761206533: countryValue,
     },
     params: {
